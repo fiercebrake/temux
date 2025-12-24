@@ -14,11 +14,20 @@ Host tekne
   HostName tekne.sv
   Port 45100
   User devops
+
+Host retailers
+  HostName retailers.fibergourmet.com
+  Port 45100
+  User dvaliente
   IdentityFile ~/.ssh/id_rsa
 
 Host themis
   HostName themis.tekne.sv
   Port 45100
   User dvaliente
-  IdentityFile ~/.ssh/id_rsa
+
+Host hephaestus
+  HostName hephaestus.tekne.sv
+  Port 45100
+  User dvaliente
 EOF
